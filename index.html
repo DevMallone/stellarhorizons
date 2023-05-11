@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/rocketone.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/logo/rocketone.png"
+      type="image/x-icon"
+    />
+    <!-- SWIP SLIDE -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- LINK FONTAWESSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Stellar Horizons - Home</title>
+  </head>
+  <body class="bodyWall">
+    <!-- MENU -->
+    <header class="menu">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo/rocketone.png" alt="" />
+        <h1>
+          Stellar <br />
+          Horizons
+        </h1>
+      </a>
+
+      <ul class="linksMenu">
+        <a class="linkActive" href="#home">Home</a>
+
+        <a href="#planets">Planetas</a>
+
+        <a href="#galaxies">Galáxias</a>
+
+        <a href="#constellations">Costelações</a>
+      </ul>
+
+      <ul id="responsiveMenu">
+        <a href="#home">Home</a>
+
+        <a href="#planets">Planetas</a>
+
+        <a href="#galaxies">Galáxias</a>
+
+        <a href="#constellations">Costelações</a>
+      </ul>
+      <i id="btnMenu" class="fas fa-bars"></i>
+      <i id="btnClose" class="fas fa-times"></i>
+    </header>
+    <!-- SEARCH -->
+    <section class="bigContent">
+      <section class="contentAll">
+        <!-- BANNER INITIAL -->
+        <section class="themeBox" id="home">
+          <div>
+            <h1>Stellar Horizons</h1>
+            <p>
+              Embarque em uma aventura cósmica com a <b>Stellar Horizons</b> e
+              descubra as maravilhas do sistema solar como nunca antes!
+            </p>
+          </div>
+          <i class="fas fa-chevron-down"></i>
+        </section>
+
+        <!-- title -->
+        <div class="boxSearch" id="planets">
+          <h3>Planetas</h3>
+          <p>Clique para ver</p>
+        </div>
+        <!-- PLANETS -->
+        <div class="boxPlanets">
+          <ul
+            class="planets swiper mySwiper"
+            pagination="true"
+            pagination-clickable="true"
+          >
+            <!-- CARROSSEL PLANETS -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-wrapper">
+              <a href="mercurio.html" class="swiper-slide mercurio">
+                <figure>
+                  <img src="assets/img/planets/mercury.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Mercúrio</h2>
+                  <p>Rochoso, pequeno</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="venus.html" class="swiper-slide venus">
+                <figure>
+                  <img src="assets/img/planets/venus.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Vênus</h2>
+                  <p>Quente, nublado</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="terra.html" class="swiper-slide terra">
+                <figure>
+                  <img src="assets/img/planets/Earth.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Terra</h2>
+                  <p>Azul, viva</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="marte.html" class="swiper-slide marte">
+                <figure>
+                  <img src="assets/img/planets/Mars.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Marte</h2>
+                  <p>Vermelho, estéril</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="jupiter.html" class="swiper-slide jupter">
+                <figure>
+                  <img src="assets/img/planets/Jupiter.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Júpter</h2>
+                  <p>Gasoso, radiante</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="saturno.html" class="swiper-slide saturno">
+                <figure>
+                  <img src="assets/img/planets/Saturn.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Saturno</h2>
+                  <p>Anelado, gasoso</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="urano.html" class="swiper-slide urano">
+                <figure>
+                  <img src="assets/img/planets/Uranus.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Urano</h2>
+                  <p>Inclinado, gelado</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="neturno.html" class="swiper-slide neturno">
+                <figure>
+                  <img src="assets/img/planets/neptune.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Neturno</h2>
+                  <p>Azul, ventoso</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+            </div>
+          </ul>
+        </div>
+        <!-- title -->
+        <div class="boxSearch" id="galaxies">
+          <h3>Galáxias</h3>
+          <p>Clique para ver</p>
+        </div>
+        <!-- GALAXY -->
+        <div class="boxPlanets">
+          <ul
+            class="planets swiper swiperCo"
+            pagination="true"
+            pagination-clickable="true"
+          >
+            <!-- CARROSSEL PLANETS -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-wrapper">
+              <a href="barrada.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/barredSpiral.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Barrada</h2>
+                  <p>Barra central</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="eliptica.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/eliptica.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Elíptica</h2>
+                  <p>Forma oval</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="irregular.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/irregular.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Irregular</h2>
+                  <p>Sem forma</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="lenticular.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/lenticular.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Lenticular</h2>
+                  <p>Disco achatado</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="peculiar.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/peculiar.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Peculiar</h2>
+                  <p>Incomun</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="espiral.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/spiral.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Espiral</h2>
+                  <p>Braços espirais</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="eliptica.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/galaxias/eliptica.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Elíptica</h2>
+                  <p>Forma oval</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+            </div>
+          </ul>
+        </div>
+        <!-- title -->
+        <div class="boxSearch" id="constellations">
+          <h3>Costelações</h3>
+          <p>Clique para ver</p>
+        </div>
+        <!-- COSMOS -->
+        <div class="boxPlanets">
+          <ul
+            class="planets swiper swiperGx"
+            pagination="true"
+            pagination-clickable="true"
+          >
+            <!-- CARROSSEL PLANETS -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-wrapper">
+              <a href="aries.html" class="swiper-slide">
+                <figure>
+                  <img
+                    style="width: 60%"
+                    src="assets/img/cosmos/aries.png"
+                    alt=""
+                  />
+                </figure>
+                <figcaption>
+                  <h2>Áries</h2>
+                  <p>Coragem</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="touro.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/touro.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Touro</h2>
+                  <p>Persistente</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="gemeos.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/gemini.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Gêmeos</h2>
+                  <p>Versatilidade</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="cancer.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/cancer.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Câncer</h2>
+                  <p>Sensibilidade</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="leao.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/leo.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Leão</h2>
+                  <p>Liderança</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="virgem.html" class="swiper-slide">
+                <figure>
+                  <img
+                    id="virgem"
+                    style="width: 50%"
+                    src="assets/img/cosmos/virgo.png"
+                    alt=""
+                  />
+                </figure>
+                <figcaption>
+                  <h2>Virgem</h2>
+                  <p>Perfeição</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="libra.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/libra.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Libra</h2>
+                  <p>Equilíbrio</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="scorpiao.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/scorpio.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Escorpião</h2>
+                  <p>Intensidade</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="sagitario.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/sagittarius.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Sagitário</h2>
+                  <p>Aventura</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="capricornio.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/capricorn.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Capricórnio</h2>
+                  <p>Ambição</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="aquario.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/aquarius.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Aquário</h2>
+                  <p>Compaixão</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+
+              <a href="peixes.html" class="swiper-slide">
+                <figure>
+                  <img src="assets/img/cosmos/pisces.png" alt="" />
+                </figure>
+                <figcaption>
+                  <h2>Peixes</h2>
+                  <p>Empatia</p>
+                  <i class="fas fa-arrow-right"></i>
+                </figcaption>
+              </a>
+            </div>
+          </ul>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+          integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        ></script>
+        <script src="assets/js/index.js"></script>
+
+        <!-- FOOTER -->
+        <footer>
+          <div>
+            <figure>
+              <img src="assets/img/logo/logoMallone.png" alt="logoMallone" />
+              <h1>Allone</h1>
+            </figure>
+            <a href="https://www.instagram.com/dev_mallone/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <p>© Stellar Horizons 2023 - Todos os direitos reservados.</p>
+        </footer>
+      </section>
+    </section>
+  </body>
+</html>
